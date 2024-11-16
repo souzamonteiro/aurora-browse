@@ -1,2 +1,2 @@
-# aurora-browse
-A NW.js web browser
+# Aurora Browser
+A NW.js web browser.

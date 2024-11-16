@@ -1,0 +1,65 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(190,190,190);
+    font-family: ubuntu, helvetica, arial;
+}
+
+.splash {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0,0,0,.7);
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+header button {
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 22px;
+}
+
+header .address {
+    width: calc(100% - 270px);
+    height: 40px;
+    margin: 5px 5px 5px 10px;
+    padding: 0 3px;
+    border: none;
+    box-shadow: inset 0 0 3px rgba(0,0,0,.4);
+    font-size: 22px;
+    line-height: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: calc(100% - 50px);
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    border: none;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.hidden {
+    display: none;
+}

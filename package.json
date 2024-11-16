@@ -1,0 +1,37 @@
+{
+  "main": "index.html",
+  "name": "Aurora Browser",
+  "description": "NW.js web browser",
+  "version": "1.0.0",
+  "nodejs": true,
+  "keywords": [
+    "browser",
+    "nwjs",
+    "node-webkit"
+  ],
+  "window": {
+    "title": "Aurora Browser",
+    "icon": "icons/browser-128.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 1024,
+    "height": 768,
+    "min_width": 320,
+    "min_height": 240
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/souzamonteiro/aurora-browser.git"
+  },
+  "author": "Roberto Luiz Souza Monteiro",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "git://github.com/souzamonteiro/aurora-browser.git/issues"
+  }
+}
